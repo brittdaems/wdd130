@@ -1,5 +1,5 @@
 :root {
-    --primary-color: beige;
+    --primary-color: rgb(93, 83, 164);
     --secondary-color: green;
     --accent1-color: rgb(52, 50, 50);
     --accent2-color: white;
@@ -29,6 +29,12 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color)
+}
+
+h2 {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
 }
 
 nav,
