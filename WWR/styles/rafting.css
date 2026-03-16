@@ -57,7 +57,7 @@ article {
 
 h1 {
     position: absolute;
-
+    top: 20px;
     left: 60px;
     width: 100%;
     padding: 16px;
@@ -67,8 +67,14 @@ h1 {
     color: black;
 }
 
+. hero article {
+    position: absolute;
+}
+
 .hero article img {
     float: right;
     width: 125px;
-
+    border: 1em;
+    margin: 1px;
+    filter: drop-shadow();
 }
