@@ -22,7 +22,7 @@ header,
 main,
 footer {
     width: 840px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 h1,
@@ -52,6 +52,7 @@ article {
 
 .hero {
     position: relative;
+    text-align: center;
 
 }
 
@@ -72,14 +73,14 @@ h1 {
     color: black;
 }
 
-.hero article {
-    position: absolute;
-}
-
 .hero article img {
     float: right;
     width: 125px;
-    border: 1em;
+    border: 1px;
     margin: 1px;
-    filter: drop-shadow();
+    box-shadow: 5px 5px 10px gray;
+}
+
+.hero article {
+    position: absolute;
 }
