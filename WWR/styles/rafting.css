@@ -73,14 +73,18 @@ h1 {
     color: black;
 }
 
+.hero article {
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    opacity: 70%;
+
+}
+
 .hero article img {
     float: right;
     width: 125px;
     border: 2px;
-    margin: 1px;
+    margin: 10px;
     box-shadow: 5px 5px 10px gray;
-}
-
-.hero article {
-    position: absolute;
 }
