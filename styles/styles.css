@@ -52,6 +52,9 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    margin: 1px;
+    border: black;
+    padding: 0;
 }
 
 aside img {
