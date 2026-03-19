@@ -84,7 +84,11 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    border: 2px;
+    border: 1px;
     margin: 10px;
     box-shadow: 5px 5px 10px gray;
+}
+
+article p {
+    width: 80%;
 }
