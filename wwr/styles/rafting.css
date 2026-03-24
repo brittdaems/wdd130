@@ -116,10 +116,11 @@ article p {
     align-items: center;
 }
 
-.grid figure {
+figure {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
 
 }
 
