@@ -28,6 +28,7 @@ footer {
 
 header {
     display: grid;
+    grid-template-columns: 25% 1fr;
     background-color: whitesmoke;
     border: 2px dashed black;
 }
@@ -54,7 +55,8 @@ article {
 }
 
 nav ul {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
@@ -109,7 +111,20 @@ article p {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 25% 1fr;
+    display: flex;
+    grid-template-columns: repeat(3 1fr);
+    align-items: center;
+}
+
+.grid figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
