@@ -78,13 +78,14 @@ input[type="checkbox"] {
 }
 
 button {
-    margin: 1rem;
+    margin-left: 640px;
     background-color: purple;
     color: white;
     font-size: 1.4rem;
     padding: 4px;
     border-radius: .5rem;
     border: none;
+
 }
 
 button:hover {
