@@ -171,11 +171,12 @@ footer img {
 form {
     background-color: whitesmoke;
     padding: 1rem;
-    margin: o auto;
+    margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 650px;
     border: 2px solid rgb(0, 0, 0, .1);
     display: grid;
+    margin-bottom: 10px;
 
 }
 
@@ -238,4 +239,25 @@ label[for="subscribe"] {
 button,
 input {
     border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    margin: 10px;
+}
+
+h6 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.employee {
+    display: flex;
 }
