@@ -33,13 +33,19 @@
         <h4>123 Main River Street</h4>
         <h4>Kolob, California</h4>
         <h4>801-390-9083</h4>
-        <h4>info@whitewaterrafting.com</h4>
+        <h5>info@whitewaterrafting.com</h5>
         <form>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" required>
+            <div class="form-item column1">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
 
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" required>
+            <div class="form-item column1">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+
+
             <fieldset>
 
                 <legend>Message Purpose</legend>
@@ -56,8 +62,10 @@
             <label for="message">Message</label>
             <textarea name="message" id="message" rows="4"></textarea>
 
-            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-            <input type="checkbox" name="subscribe" id="subscribe">
+            <div class="form-item column2">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" name="subscribe" id="subscribe">
+            </div>
 
             <button type="submit">Get in Touch!</button>
 

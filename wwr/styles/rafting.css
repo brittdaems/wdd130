@@ -45,6 +45,24 @@ h2 {
     text-align: center;
 }
 
+h3,
+h4,
+h5 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1px;
+
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+h5 {
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
 nav,
 p,
 section,
@@ -148,4 +166,76 @@ li a {
 
 footer img {
     width: 50px;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin: o auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 650px;
+    border: 2px solid rgb(0, 0, 0, .1);
+    display: grid;
+
+}
+
+button {
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+fieldset {
+
+    gap: 1px;
+    margin: 1rem;
+    border: none;
+    padding: 1px;
+    text-align: center;
+}
+
+legend {
+    text-align: left;
+    padding: 1px;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 2px;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+label[for="subscribe"] {
+    text-align: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 3fr;
+    margin: .5em 0;
+}
+
+.column2 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5em;
+}
+
+button,
+input {
+    border-radius: 5px;
 }
