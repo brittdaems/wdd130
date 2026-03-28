@@ -185,6 +185,11 @@ form {
 button {
     padding: 5px;
     background-color: lightgrey;
+
+}
+
+button:hover {
+    background-color: darkgray;
 }
 
 fieldset {
