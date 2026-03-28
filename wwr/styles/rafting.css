@@ -252,12 +252,30 @@ iframe {
     margin: 10px;
 }
 
+\.flex2,
+h6 {
+    border: 1px solid black;
+}
+
 h6 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
+    border-bottom: none;
 }
 
 .employee {
     display: flex;
+}
+
+.flex2 {
+    display: flex;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.flex2 img {
+    width: 70%;
+    padding-top: 10px;
+
 }
