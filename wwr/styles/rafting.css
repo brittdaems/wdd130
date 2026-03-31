@@ -173,7 +173,7 @@ form {
     padding: 1rem;
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 650px;
+
     height: 450px;
     border: 2px solid rgb(0, 0, 0, .1);
     display: grid;
@@ -198,7 +198,7 @@ fieldset {
     margin: 1rem;
     border: none;
     padding: 1px;
-    text-align: center;
+
 }
 
 legend {
@@ -239,8 +239,9 @@ label[for="subscribe"] {
 }
 
 .column2 {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 25px auto;
     margin: .5em;
+    text-align: left;
 }
 
 button,
@@ -259,7 +260,7 @@ iframe {
     margin: 10px;
 }
 
-\.flex2,
+.flex2,
 h6 {
     border: 1px solid black;
 }
