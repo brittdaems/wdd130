@@ -67,22 +67,20 @@ h2 {
     text-align: center;
 }
 
-h3,
-h4,
-h5 {
+#contact h2 {
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    padding: .1px;
+    font-size: 1.5em;
+}
+
+#contact h3 {
     margin: 0 auto;
     text-align: center;
-    padding: 1px;
+    padding: .1px;
 
-}
-
-h3 {
-    margin-top: 10px;
-}
-
-h5 {
-    margin-bottom: 10px;
-    font-size: medium;
 }
 
 nav,
