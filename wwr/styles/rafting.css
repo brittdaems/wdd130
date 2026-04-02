@@ -191,6 +191,11 @@ form {
 
 }
 
+#index form {
+    height: 400px;
+    margin-top: 30px;
+}
+
 button {
     padding: 5px;
     background-color: lightgrey;
@@ -199,6 +204,11 @@ button {
 
 button:hover {
     background-color: darkgray;
+}
+
+#index button {
+    padding: 1px;
+    font-size: 3rem;
 }
 
 fieldset {
