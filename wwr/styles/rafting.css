@@ -201,6 +201,10 @@ form {
 
 }
 
+#trips form {
+    height: 400px;
+}
+
 button {
     padding: 5px;
     background-color: lightgrey;
@@ -286,6 +290,10 @@ input {
     padding-left: 25px;
 }
 
+#trips .grid2 {
+    margin-top: 20px;
+}
+
 iframe {
     margin: 10px;
 }
@@ -320,7 +328,7 @@ h4 {
 
 table {
     width: 80%;
-    margin: 30px auto;
+    margin: 0 auto;
     border-collapse: collapse;
     background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
