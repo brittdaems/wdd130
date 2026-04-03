@@ -173,6 +173,10 @@ li a {
 
 }
 
+#trips .flex img {
+    width: 160px;
+}
+
 footer img {
     width: 50px;
 }
