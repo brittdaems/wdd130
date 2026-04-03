@@ -29,51 +29,91 @@
     </header>
 
     <main id="trips">
-        <table>
-            <tr>
-                <th>Canyon</th>
-                <th>Duration</th>
-                <th>Difficulty</th>
-                <th>Best Season</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>Cataract Canyon</td>
-                <td>2–4 Days</td>
-                <td>Advanced (Class III–V)</td>
-                <td>May – September</td>
-                <td>$1,200</td>
-            </tr>
-            <tr>
-                <td>Desolation Canyon</td>
-                <td>4–6 Days</td>
-                <td>Intermediate (Class II–III)</td>
-                <td>May – August</td>
-                <td>$1,500</td>
-            </tr>
-            <tr>
-                <td>Labyrinth Canyon</td>
-                <td>2–3 Days</td>
-                <td>Beginner (Flatwater)</td>
-                <td>April – October</td>
-                <td>$600</td>
-            </tr>
-            <tr>
-                <td>Westwater Canyon</td>
-                <td>1–2 Days</td>
-                <td>Intermediate (Class III–IV)</td>
-                <td>April – October</td>
-                <td>$900</td>
-            </tr>
-            <tr>
-                <td>San Juan Canyon</td>
-                <td>3–5 Days</td>
-                <td>Beginner–Intermediate (Class I–III)</td>
-                <td>April – July</td>
-                <td>$1,100</td>
-            </tr>
-        </table>
+        <div class="grid2">
+            <table>
+                <tr>
+                    <th>Canyon</th>
+                    <th>Duration</th>
+                    <th>Difficulty</th>
+                    <th>Best Season</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Cataract Canyon</td>
+                    <td>2–4 Days</td>
+                    <td>Advanced (Class III–V)</td>
+                    <td>May – September</td>
+                    <td>$1,200</td>
+                </tr>
+                <tr>
+                    <td>Desolation Canyon</td>
+                    <td>4–6 Days</td>
+                    <td>Intermediate (Class II–III)</td>
+                    <td>May – August</td>
+                    <td>$1,500</td>
+                </tr>
+                <tr>
+                    <td>Labyrinth Canyon</td>
+                    <td>2–3 Days</td>
+                    <td>Beginner (Flatwater)</td>
+                    <td>April – October</td>
+                    <td>$600</td>
+                </tr>
+                <tr>
+                    <td>Westwater Canyon</td>
+                    <td>1–2 Days</td>
+                    <td>Intermediate (Class III–IV)</td>
+                    <td>April – October</td>
+                    <td>$900</td>
+                </tr>
+                <tr>
+                    <td>San Juan Canyon</td>
+                    <td>3–5 Days</td>
+                    <td>Beginner–Intermediate (Class I–III)</td>
+                    <td>April – July</td>
+                    <td>$1,100</td>
+                </tr>
+            </table>
+            <form>
+                <div class="form-item column1">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
 
+                <div class="form-item column1">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+
+
+                <fieldset>
+
+                    <legend>Message Purpose</legend>
+                    <input type="radio" id="option1" name="choice" value="option1">
+                    <label for="option1">General Inquiry</label><br>
+
+                    <input type="radio" id="option2" name="choice" value="option2">
+                    <label for="option2">Reservation Question</label><br>
+
+                    <input type="radio" id="option3" name="choice" value="option3">
+                    <label for="option3">Website Suggestion</label><br>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+
+                <div class="form-item column2">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+
+            </form>
+
+
+        </div>
         <section>
             <h2>Cataract Canyon</h2>
             <div class="grid">
