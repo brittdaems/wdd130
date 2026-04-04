@@ -123,7 +123,7 @@ nav ul {
     position: absolute;
     top: 80px;
     background-color: white;
-    opacity: 70%;
+    opacity: 80%;
 
 }
 
@@ -141,7 +141,7 @@ article p {
 
 .grid {
     display: flex;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     width: 100%;
 }
@@ -215,9 +215,17 @@ button:hover {
     background-color: darkgray;
 }
 
-#index button {
-    padding: 1px;
-    font-size: 3rem;
+.cta {
+    padding: 6px;
+    font-size: 1.5rem;
+    display: inline-block;
+    background-color: #708294;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
 }
 
 fieldset {
